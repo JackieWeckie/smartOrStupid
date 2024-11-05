@@ -8,13 +8,10 @@ import java.util.Random;
 
 public class Main {
     public static void main(String[] args) {
-        Random rnd = new Random();
-        int num = 0 + rnd.nextInt(100 - 0);
+        firstVersion();
+    }
 
-        if (num % 2 == 0) {
-            System.out.println("Congrats! You're smart today!");
-        } else {
-            System.out.println("Oh crap! You're stupid today!");
-        }
+    static void firstVersion() {
+        System.out.println(firstVersion.getANumber());
     }
 }
