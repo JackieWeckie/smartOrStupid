@@ -3,7 +3,7 @@ import java.util.Random;
 public class firstVersion {
     public static int getANumber() {
         Random rnd = new Random();
-        int num = 0 + rnd.nextInt(100 - 0);
+        int num = rnd.nextInt(100);
 
         if (num % 2 == 0) {
             System.out.println("Congrats! You're smart today!");
